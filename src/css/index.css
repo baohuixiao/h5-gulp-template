@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    display: block;
+    color: red;
+}
+
+img {
+    display: block;
+    user-select: none;
+}

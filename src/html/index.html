@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://act.development.platform.babybus.com/lib/tool/vconsole.min.js"></script>
+    <script>
+        // 页面适配
+        (function () {
+            var html = document.documentElement;
+            var windowWidth = html.clientWidth > 600 ? 600 : html.clientWidth;
+            html.style.fontSize = windowWidth / 7.5 + 'px';
+        }());
+        // 创建移动端调试器
+        var vConsole = new VConsole();
+    </script>
+    <link rel="stylesheet" href='./css/index.css'></link>
+</head>
+
+<body>
+    <div id="app" class="container"></div>
+</body>
+<script src="./js/index.js"></script>
+
+</html>
