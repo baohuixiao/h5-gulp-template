@@ -1,6 +1,9 @@
 {
     "files": [
-        "src/ts/*.ts",
+        "src/ts/index.ts",
+    ],
+    "includes": [
+        "src/ts/*.ts"
     ],
     "compilerOptions": {
         "noImplicitAny": true,
